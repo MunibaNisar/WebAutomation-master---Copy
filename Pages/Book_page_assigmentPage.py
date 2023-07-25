@@ -1,0 +1,20 @@
+class bookPageAssignment:
+
+    def __init__(self):
+        self.admintool = '//*[@id="RadMenu1"]/ul/li[8]/a/span[1]'
+        self.bookPage = '/html/body/form/div[4]/div/div[2]/div/div/div/ul/li[8]/div/ul/li[3]/a/span[2]'
+        self.assignmentpage = '//*[@id="ctl00_ContentPlaceHolder1_gvBookPageAssignment"]/tbody/tr/td/label'
+        self.tooliframe = '/html/body/form/div[1]/table/tbody/tr[2]/td[2]/iframe'
+        self.addRecord = 'btInsert'
+        self.description = 'ctl00_ContentPlaceHolder1_dvInsertView_TextBox1'
+        self.book = 'ctl00_ContentPlaceHolder1_dvInsertView_TextBox2'
+        self.page = 'ctl00_ContentPlaceHolder1_dvInsertView_TextBox3'
+        self.maximumPage ='ctl00_ContentPlaceHolder1_dvInsertView_TextBox4'
+        self.overFlow = 'ctl00_ContentPlaceHolder1_dvInsertView_TextBox5'
+        self.Insert = '/html/body/form/div[4]/div[1]/div/div[2]/div/table/tbody/tr[7]/td/a[1]'
+        self.table = 'ctl00_ContentPlaceHolder1_gvBookPageAssignment'
+        self.cancel = '/html/body/form/div[4]/div[1]/div/div[2]/div/table/tbody/tr[7]/td/a[2]'
+        self.edit ='/html/body/form/div[4]/div[1]/div/div[1]/table/tbody/tr[2]/td[1]/a[1]'
+        self.update = '/html/body/form/div[4]/div[1]/div/div[1]/table/tbody/tr[2]/td[1]/a[1]'
+        self.updated_description = '/html/body/form/div[4]/div[1]/div/div[1]/table/tbody/tr[2]/td[3]/input'
+        self.deletion = '/html/body/form/div[4]/div[1]/div/div[1]/table/tbody/tr[2]/td[1]/a[2]'

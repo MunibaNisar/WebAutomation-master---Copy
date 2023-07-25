@@ -1,4 +1,3 @@
-import pdb
 import time
 from unittest import TestCase
 from Utility.SharedFunctions1 import commonFunctions
@@ -12,8 +11,6 @@ attorney = Attorney()
 sheetName = "1-Attorneys"
 first_name = common_function.GenrateSimpleStringLimit10()
 last_name = common_function.GenrateSimpleStringLimit10()
-from selenium.webdriver.common.action_chains import ActionChains
-
 
 
 class attorneyTest(TestCase):
